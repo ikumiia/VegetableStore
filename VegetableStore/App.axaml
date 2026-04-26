@@ -1,0 +1,9 @@
+<Application xmlns="https://github.com"
+             xmlns:x="http://microsoft.com"
+             x:Class="VegetableStore.App"
+             RequestedThemeVariant="Default">
+	<Application.Styles>
+		<FluentTheme />
+		<StyleInclude Source="avares://Avalonia.Controls.DataGrid/Themes/Fluent.xaml"/>
+	</Application.Styles>
+</Application>

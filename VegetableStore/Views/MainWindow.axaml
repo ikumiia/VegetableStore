@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com"
+        xmlns:x="http://microsoft.com"
+        x:Class="VegetableStore.Views.MainWindow"
+        Title="Store" Width="400" Height="500">
+	<StackPanel Margin="20" Spacing="10">
+		<TextBlock Text="Вход (admin@test.com / 12345)" HorizontalAlignment="Center"/>
+		<TextBox Name="EmailBox" Watermark="Email"/>
+		<TextBox Name="PassBox" PasswordChar="*" Watermark="Password"/>
+		<Button Content="ВОЙТИ И ПОКАЗАТЬ ОВОЩИ" Click="BtnClick" HorizontalAlignment="Stretch"/>
+
+		<ListBox Name="ResultList" Height="200"/>
+		<TextBlock Name="ErrorText" Foreground="Red"/>
+	</StackPanel>
+</Window>
